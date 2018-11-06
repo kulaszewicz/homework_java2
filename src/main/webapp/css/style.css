@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Modern Antiqua', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.box{
+    width: 40%;
+    min-height: 49.2vh;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h2:after{
+    display: block;
+    height: 4px;
+    background-color: #fff;
+    content: " ";
+    width: 550px;
+    margin: 10px auto;
+}
+
+h3{
+    margin-left: 40%;
+    width: 40%;
+    font-size: 150%;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+table {
+    padding-bottom: 30px;
+    margin-top: 3%;
+    color: #555;
+    width: 60%;
+    margin-left: 20%;
+}
+
+td,th {
+    border: 1px solid #555;
+    text-align: left;
+    padding: 8px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16), rgba(0, 0, 25, 15)), url("../resources/background-head.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vh;
+}
+.section-exe{
+    min-height: 49.2vh;
+    background-image: url("../resources/background-body.png");
+    background-size: cover;
+}
+
+.form-nav{
+    margin-top: 60px;
+    width: 100%;
+    color: #555;
+    padding-right: 80px;
+}
+
+label{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5%;
+    text-align: right;
+}
+
+input{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.second-box{
+    margin-left: 30%;
+    width: 100%;
+    float: left;
+}
+i{
+    margin-left: 25%;
+    color: #555;
+    font-size: 400%;
+}
+.col{
+    float: left;
+    width: 40%;
+}
+
+.btn
+{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    font-size: 70%;
+    font-family: 'Modern Antiqua', sans-serif;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    min-width: 7%;
+    transition: background-color 0.2s, border 0.2s;
+    cursor: pointer;
+}
+
+.reg-btn{
+    position: relative;
+    width: 55%;
+    top: 74%;
+    left: 50%;
+}
+
+.log-btn{
+    position: relative;
+    width: 55%;
+    top: 74%;
+    left: 50%;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btn:hover,
+.btn:active {
+    color: #fff;
+    background-color: #555;
+}
+.con{
+    width: 35%;
+    padding-top: 15px;
+    font-size: 60%;
+}
+
+.git i{
+    text-align: right;
+    font-size: 120%;
+}
+
+.git-btn{
+    margin-left: 15%;
+}
+
+.git-btn:hover,
+.git-btn:active{
+    color: #555;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    font-size: 70%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.error{
+    box-shadow: 0 0 7px #cc0221;
+}
+
+.error2{
+    border: #cc0221 20px;
+}
