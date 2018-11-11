@@ -3,6 +3,9 @@
 <%
     //SEND VARS
     User curUser = (User) request.getAttribute("curUser");
+    if (curUser == null) {
+        response.sendRedirect("index.jsp");
+    }
     String rank = "user";
     if (curUser.isPremium && curUser.isAdmin) {
         rank = "Admin";

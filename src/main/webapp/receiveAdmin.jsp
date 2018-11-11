@@ -1,9 +1,9 @@
 <%@ page import="com.classes.User" %>
-<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     //SEND VARS
     User curUser = (User) session.getAttribute("curUser");
+    if (curUser == null) response.sendRedirect("index.jsp");
 
 %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

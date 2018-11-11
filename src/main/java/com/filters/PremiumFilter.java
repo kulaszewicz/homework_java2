@@ -31,7 +31,10 @@ public class PremiumFilter implements Filter {
 
         if (curUser.isPremium){
             chain.doFilter(req, resp);
-        } else response.sendRedirect("Login");
+        } else {
+            response.setHeader("Refresh","300");
+            response.getWriter().println("<h1>Error 500: No permission!");
+        }
 
     }
 

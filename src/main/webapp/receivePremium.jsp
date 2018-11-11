@@ -4,6 +4,7 @@
 <%
     //SEND VARS
     User curUser = (User) session.getAttribute("curUser");
+    if (curUser == null) response.sendRedirect("index.jsp");
     List<User> premUsers = (List<User>) session.getAttribute("premUsers");
 
 %>

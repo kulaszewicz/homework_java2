@@ -24,8 +24,10 @@ public class AdminFilter implements Filter {
 
         if (curUser.isAdmin){
             chain.doFilter(req, resp);
-        } else response.sendRedirect("Login");
-
+        } else {
+            response.setHeader("Refresh","300");
+            response.getWriter().println("<h1>Error 500: No permission!");
+        }
     }
 
     public void init(FilterConfig config) throws ServletException {
