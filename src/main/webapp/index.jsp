@@ -47,7 +47,7 @@
                 </ul>
             </div>
             <div class="git">
-                <button name="GIT" value="GIT" class="btn git-btn" onclick="window.location.href='https://github.com/kulaszewicz/java_homework'">GIT<i class="fab fa-github"></i></button>
+                <button name="GIT" value="GIT" class="btn git-btn" onclick="window.location.href='https://github.com/kulaszewicz/homework_java2'">GIT<i class="fab fa-github"></i></button>
             </div>
         </div>
 
