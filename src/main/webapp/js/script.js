@@ -1,5 +1,9 @@
+$(document).ready(function () {
+    alert("document is ready");
 
-
+    var test = <%=request.getAttrubte(curUser")%>;
+});
+/*
 $('.reg-btn').click(function() {
 
     var correct = true;

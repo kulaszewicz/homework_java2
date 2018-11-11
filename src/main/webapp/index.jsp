@@ -1,4 +1,7 @@
 <%@ page language="java" contentType="text/html; ISO-8859-1" pageEncoding="ISO-8859-1" %>
+
+
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
@@ -23,9 +26,9 @@
         <div class="col span-1-of-2 box">
             <h3 class="h3">Sign in</h3>
             <ul class="form-nav">
-                <form action="LoginServlet" method="get" id="formLogin">
-                    <label>Username:<input type="text" id="lLoing" name="login"/></label>
-                    <label>Password:<input type="text" id="lPassword" name="password"/></label>
+                <form action="Login" method="get" id="formLogin">
+                    <label>Username:<input type="text" id="lLoing" name="llogin"/></label>
+                    <label>Password:<input type="password" id="lPassword" name="lpassword"/></label>
                     <button name="LOG" value="LOG" class="btn log-btn">LOGIN</button>
                 </form>
             </ul>

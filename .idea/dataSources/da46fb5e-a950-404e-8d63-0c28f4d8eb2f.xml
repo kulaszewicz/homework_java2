@@ -20,6 +20,7 @@
       <Position>1</Position>
       <DataType>INTEGER(32)|4</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="9" parent="7" name="USERNAME">
       <Position>2</Position>
@@ -39,16 +40,14 @@
     <column id="12" parent="7" name="ISADMIN">
       <Position>5</Position>
       <DataType>BOOLEAN(0)|16</DataType>
-      <NotNull>1</NotNull>
       <DefaultExpression>FALSE</DefaultExpression>
     </column>
     <column id="13" parent="7" name="ISPREMIUM">
       <Position>6</Position>
       <DataType>BOOLEAN(0)|16</DataType>
-      <NotNull>1</NotNull>
       <DefaultExpression>FALSE</DefaultExpression>
     </column>
-    <key id="14" parent="7" name="SYS_PK_10145">
+    <key id="14" parent="7" name="SYS_PK_10355">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
